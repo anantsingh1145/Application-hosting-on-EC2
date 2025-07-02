@@ -26,8 +26,7 @@ Ensure the following are installed and configured on your machine:
 
 ## 📁 Project Structure
 
-```
-
+```bash
 .
 ├── README.md
 ├── terraform/
@@ -41,6 +40,7 @@ Ensure the following are installed and configured on your machine:
 │   ├── variable.tf
 │   └── vpc.tf
 └── .gitignore
+```
 
 ````
 
