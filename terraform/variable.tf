@@ -3,7 +3,7 @@ variable "aws_region" {
   type        = string
 }
 
-/*
+
 variable "vpc_name" {
   description = "The name of the VPC"
   type        = string
@@ -28,7 +28,7 @@ variable "public_subnets" {
   description = "The public subnets to deploy the resources"
   type        = list(string)
 }
-*/
+
 
 variable "environment" {
   description = "The environment to deploy the resources"
