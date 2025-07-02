@@ -3,8 +3,6 @@
 ---
 # Creating the Infrastructure for the application
 ---
-
-```markdown
 # 🚀 Production Infrastructure Provisioning with Terraform
 
 This repository contains Terraform configuration files to provision secure, scalable, and production-grade AWS infrastructure components such as VPC, Auto Scaling Group (ASG), S3 bucket, and DynamoDB.
@@ -41,8 +39,6 @@ Ensure the following are installed and configured on your machine:
 │   └── vpc.tf
 └── .gitignore
 ```
-
-````
 
 ---
 
