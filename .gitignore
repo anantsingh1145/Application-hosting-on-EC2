@@ -1,0 +1,19 @@
+# Terraform state files and backups
+*.tfstate
+*.tfstate.backup
+
+# Terraform working directories
+.terraform/
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Override files you might create locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan output (optional)
+*.tfplan
