@@ -5,13 +5,13 @@ terraform {
       version = ">= 6.0"
     }
   }
-  
+
   backend "s3" {
-    bucket         = "terraform-state-bucket-test-vpc" 
-    key            = "terraform/terraform.tfstate"   
-    region         = "us-east-1"                                
-    encrypt        = true                                       
-    dynamodb_table = "terraform-state-locking-test-vpc"                 
+    bucket         = "terraform-state-bucket-test-vpc"
+    key            = "terraform/terraform.tfstate"
+    region         = "us-east-1"
+    encrypt        = true
+    dynamodb_table = "terraform-state-locking-test-vpc"
   }
 }
 

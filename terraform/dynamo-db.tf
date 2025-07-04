@@ -1,6 +1,6 @@
 resource "aws_dynamodb_table" "terraform_locks" {
-  name         = "terraform-state-locking-test-vpc"
-  hash_key     = "LockID"
+  name           = "terraform-state-locking-test-vpc"
+  hash_key       = "LockID"
   read_capacity  = 5
   write_capacity = 5
 
